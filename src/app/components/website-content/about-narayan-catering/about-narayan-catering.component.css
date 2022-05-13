@@ -1,0 +1,155 @@
+.aboutwraper {
+    width: 100%;
+    float: left;
+    clear: both;
+}
+
+.aboutdetail {
+    width: 100%;
+    float: left;
+    padding: 150px 0 0;
+}
+
+.abouttext {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 120px 0 0;
+}
+
+.aboutlogo {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.abouttext h1 {
+    font-family: "Belgium Free";
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 44px;
+    text-align: left;
+    color: #e4ce8a;
+    opacity: 0.8;
+    margin: 0;
+    padding: 0 0 50px;
+}
+
+.abouttext h5 {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: left;
+    color: #e4ce8a;
+    opacity: 0.6;
+    margin: 0;
+    padding: 0 0 20px;
+
+}
+
+.abouttext span {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: left;
+    color: #fff;
+    opacity: 0.6;
+    padding: 0 0 50px;
+    float: left;
+}
+
+.abouttext p {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: left;
+    color: #fff;
+    opacity: 0.6;
+    margin: 0;
+}
+
+/*Media Queries Start Here*/
+@media only screen and (max-width: 1600px){
+
+    .abouttext h1 {
+        font-size: 56px;
+    }
+    .abouttext h5 {
+        font-size: 26px;
+       
+    }
+    .abouttext p {
+        font-size: 18px;
+    }
+    .abouttext span {
+        font-size: 18px;
+        padding: 0 0 30px;
+    }
+    .aboutlogo img{
+        max-width: 400px;
+    }
+
+}
+
+@media only screen and (max-width: 1368px){
+
+}
+
+@media(max-width:768px) {
+
+    .aboutdetail {
+        padding: 50px 0 0;
+    }
+    .abouttext {
+        padding: 0 20px 0 0;
+    }
+    .abouttext h1 {
+        font-size: 36px;
+        padding: 0 0 30px;
+    }
+    .abouttext h5 {
+        font-size: 16px;
+    }
+    .abouttext span {
+        font-size: 14px;
+        line-height: normal;
+    }
+    .abouttext p {
+        font-size: 14px;
+        line-height: normal;
+    }
+    .aboutlogo img {
+        max-width: 240px;
+    }
+
+}
+
+@media only screen and (max-width:639px){
+
+    .aboutlogo img {
+        max-width: 180px;
+    }
+
+}
+
+@media only screen and (max-width:479px){
+
+    .abouttext {
+        padding: 0 0 50px;
+        width: 100%;
+    }
+    .aboutlogo {
+        width: 100%;
+        text-align: center;
+    }
+    .abouttext h1 {
+        font-size: 32px;
+    }
+    .aboutlogo img {
+        max-width: 150px;
+    }
+    
+}
+
+/* Media Queries End Here  */

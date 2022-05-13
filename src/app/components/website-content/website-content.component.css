@@ -1,0 +1,7 @@
+.websitebg {
+    width: 100%;
+    float: left;
+    background-image: url(/assets/images/Website-Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
